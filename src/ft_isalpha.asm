@@ -11,7 +11,7 @@ _ft_isalpha:
         cmp     rdi, 0x5A
         jg      _ft_isalpha.false
 
-.true
+.true:
         mov     eax, 1
         ret
 
