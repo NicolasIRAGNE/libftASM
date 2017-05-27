@@ -1,11 +1,11 @@
 section .text:
-		global _ft_isdigit
+		global _ft_isprint
 
-_ft_isdigit:
+_ft_isprint:
 		cmp 	rdi, 0x20
-		jle 	_ft_isdigit.false
+		jl  	_ft_isprint.false
 		cmp 	rdi, 0x7E
-		jge 	_ft_isdigit.false
+		jg  	_ft_isprint.false
 		mov 	rax, 1
 		ret
 

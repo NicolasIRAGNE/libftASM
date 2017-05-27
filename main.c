@@ -1,14 +1,14 @@
-int _ft_isalnum(int c);
+int _ft_toupper(int c);
 
 
 main()
 {
-	printf("%d\n", _ft_isalnum('0'));
-	printf("%d\n", _ft_isalnum('1'));
-	printf("%d\n", _ft_isalnum('2'));
-	printf("%d\n", _ft_isalnum('9'));
-	printf("%d\n", _ft_isalnum(':'));
-	printf("%d\n", _ft_isalnum('F'));
-	printf("%d\n", _ft_isalnum('P'));
-	printf("%d\n", _ft_isalnum('.'));
+	printf("%c\n", _ft_toupper('a'));
+	printf("%c\n", _ft_toupper('b'));
+	printf("%c\n", _ft_toupper('2'));
+	printf("%c\n", _ft_toupper('9'));
+	printf("%c\n", _ft_toupper(':'));
+	printf("%c\n", _ft_toupper('F'));
+	printf("%c\n", _ft_toupper('P'));
+	printf("%c\n", _ft_toupper('.'));
 }
