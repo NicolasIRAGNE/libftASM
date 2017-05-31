@@ -3,12 +3,13 @@
 #include <string.h>
 
 
-char    *_ft_strcat(char *s1, char *s2);
+int		ft_strlen(char *s1);
 
 int             main()
 {
-        char    s1[20] = "salut";
+        char    *s1 = "salut";
         char    s2[20] = "ca va";
 
-        printf("%s\n",_ft_strcat(s1, s2));
+        printf("%d\n", strlen(s1));
+        printf("%d\n", ft_strlen(s1));
 }
