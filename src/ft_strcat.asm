@@ -1,9 +1,9 @@
 section .text
         global _ft_strcat
-        extern _strlen
+        extern _ft_strlen
 
 _ft_strcat:
-        call    _strlen
+        call    _ft_strlen
         mov             r8, rdi
         add             r8, rax
 
